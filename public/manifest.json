@@ -1,0 +1,17 @@
+{
+  "name": "Taal Hero",
+  "short_name": "Taal Hero",
+  "description": "Woorden 1+2: leer begrippen over angst en griezelen!",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#7c3aed",
+  "theme_color": "#7c3aed",
+  "icons": [
+    {
+      "src": "/app-icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
