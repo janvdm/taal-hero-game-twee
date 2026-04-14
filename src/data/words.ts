@@ -5,25 +5,13 @@ export interface WordEntry {
   example?: string;
 }
 
+/** Actieve subset woorden / uitdrukkingen voor deze sessie. */
 export const words: WordEntry[] = [
-  // Woordenlijst 1 — IMG 8469
-  {
-    id: 'adrenaline',
-    word: 'de adrenaline',
-    meaning: 'stofje in je bloed waardoor je snel kunt reageren',
-    example: 'Als je bang bent, maakt je lichaam het stofje adrenaline aan.',
-  },
   {
     id: 'als-een-razende-tekeergaan',
     word: 'als een razende tekeergaan',
     meaning: 'heel hard bewegen',
     example: 'Zijn hart gaat als een razende tekeer.',
-  },
-  {
-    id: 'angstaanjagend',
-    word: 'angstaanjagend',
-    meaning: 'waar je bang van wordt',
-    example: 'Ik kon moeilijk in slaap komen door die angstaanjagende film.',
   },
   {
     id: 'auteur',
@@ -32,22 +20,10 @@ export const words: WordEntry[] = [
     example: 'Paul van Loon is de auteur van Dolfje Weerwolfje.',
   },
   {
-    id: 'automatisch',
-    word: 'automatisch',
-    meaning: 'vanzelf, zonder na te denken',
-    example: 'Ik deed automatisch de deur achter me dicht.',
-  },
-  {
     id: 'avondschemering',
     word: 'de avondschemering',
     meaning: "de tijd dat de zon 's avonds nog niet helemaal onder is",
     example: 'In de avondschemering kon ik nog net zien dat een kat de schuur in sloop.',
-  },
-  {
-    id: 'bedreigen',
-    word: 'bedreigen',
-    meaning: 'iemand bang maken, een gevaar voor iemand zijn',
-    example: 'In veel griezelfilms bedreigen zombies de aarde.',
   },
   {
     id: 'behoedzaam',
@@ -56,35 +32,10 @@ export const words: WordEntry[] = [
     example: 'Om geen geluid te maken, sloop zij behoedzaam de trap op.',
   },
   {
-    id: 'controle',
-    word: 'de controle',
-    meaning: 'de beheersing, dat het gaat zoals jij wilt',
-    example: 'Lisa had geen controle meer over zichzelf en begon keihard te gillen.',
-  },
-  {
-    id: 'deskundige',
-    word: 'de deskundige',
-    meaning: 'iemand die ergens veel van weet',
-    example: 'In het filmpje legt de deskundige uit hoe je met angst om kunt gaan.',
-  },
-  {
     id: 'desondanks',
     word: 'desondanks',
     meaning: 'toch',
     example: 'Die spin is niet gevaarlijk, maar desondanks ben ik bang.',
-  },
-  {
-    id: 'emotie',
-    word: 'de emotie',
-    meaning: 'een gevoel, zoals angst, vreugde of verdriet',
-    example:
-      'Bij griezelen voel je allerlei emoties, zoals angst, en opluchting als het goed afloopt.',
-  },
-  {
-    id: 'gevaar-is-geweken',
-    word: 'het gevaar is geweken',
-    meaning: 'het gevaar is weer verdwenen',
-    example: 'De giftige slang zit weer in zijn kooi, dus het gevaar is geweken.',
   },
   {
     id: 'grimmig',
@@ -98,61 +49,11 @@ export const words: WordEntry[] = [
     meaning: 'een hekel hebben aan; griezelen van',
     example: 'Ik gruwel van insecten.',
   },
-  // Woordenlijst 2 — IMG 8470
   {
     id: 'hachelijk',
     word: 'hachelijk',
     meaning: 'gevaarlijk',
     example: 'Zonder licht fietsen in het donker is een hachelijk avontuur.',
-  },
-  {
-    id: 'horrorfilm',
-    word: 'de horrorfilm',
-    meaning: 'de griezelfilm',
-    example: 'In een horrorfilm komen vaak geesten of monsters voor.',
-  },
-  {
-    id: 'huiveren',
-    word: 'huiveren',
-    meaning: 'rillen van angst of kou',
-    example: 'Ze huiverde toen ze de staart van de kat langs haar benen voelde gaan.',
-  },
-  {
-    id: 'iets-uit-de-weg-gaan',
-    word: 'iets uit de weg gaan',
-    meaning: 'iets ontwijken',
-    example: 'Dingen waar ik bang voor ben, ga ik uit de weg.',
-  },
-  {
-    id: 'ijzig',
-    word: 'ijzig',
-    meaning: 'heel erg koud',
-    example: 'Het vriest en er waait een ijzige wind.',
-  },
-  {
-    id: 'in-actie-komen',
-    word: 'in actie komen',
-    meaning: 'aan de gang gaan, beginnen te werken',
-    example: 'Toen de trap kraakte, kwam ze meteen in actie en rende naar buiten.',
-  },
-  {
-    id: 'indrukwekkend',
-    word: 'indrukwekkend',
-    meaning: 'als iets veel indruk maakt',
-    example: 'Ik dacht nog lang na over die indrukwekkende film.',
-  },
-  {
-    id: 'nekharen-overeind',
-    word: 'je (nek)haren gaan overeind staan',
-    meaning:
-      'je haar gaat overeind staan (kippenvel) omdat je iets eng of akelig vindt',
-    example: 'Van die harde gil gingen mijn nekharen overeind staan.',
-  },
-  {
-    id: 'kippenvel',
-    word: 'het kippenvel',
-    meaning: 'vel waarvan door kou of schrik alle haartjes overeind staan',
-    example: 'Als Anita een slang ziet, krijgt ze kippenvel.',
   },
   {
     id: 'koude-rillingen',
@@ -161,99 +62,11 @@ export const words: WordEntry[] = [
     example: 'Ik krijg koude rillingen als ik aan dat donkere huis denk.',
   },
   {
-    id: 'lichaamstemperatuur',
-    word: 'de lichaamstemperatuur',
-    meaning: 'hoe warm of koud het in je lijf is',
-    example: 'Als je koorts hebt, is je lichaamstemperatuur hoger dan normaal.',
-  },
-  {
-    id: 'opluchting',
-    word: 'de opluchting',
-    meaning: 'je geen zorgen meer maken',
-    example: 'Tot mijn opluchting was de spin weg.',
-  },
-  {
-    id: 'pretparkattractie',
-    word: 'de pretparkattractie',
-    meaning: 'iets wat je in een pretpark kunt doen, zoals een achtbaan',
-    example:
-      'Er is een pretparkattractie waarbij je met 100 kilometer per uur van een toren valt.',
-  },
-  {
-    id: 'ritselen',
-    word: 'ritselen',
-    meaning: 'een zacht ruisend of krakend geluid maken',
-    example: 'De boomblaadjes ritselen in de wind.',
-  },
-  // Woordenlijst 3 — IMG 8471
-  {
-    id: 'sidderen-van-angst',
-    word: 'sidderen van angst',
-    meaning: 'van angst beven',
-    example: 'Toen ik in het spookhuis liep, sidderde ik van angst.',
-  },
-  {
-    id: 'stalen-zenuwen',
-    word: 'stalen zenuwen hebben',
-    meaning: 'niet gauw zenuwachtig of bang zijn',
-    example: 'Gelukkig heeft Joanne stalen zenuwen, ze dook zo van de brug het water in.',
-  },
-  {
-    id: 'stokstijf',
-    word: 'stokstijf',
-    meaning: 'helemaal stijf, zonder beweging',
-    example: 'De spin bewoog niet. Hij zat stokstijf stil.',
-  },
-  {
-    id: 'stress',
-    word: 'de stress',
-    meaning: 'druk, spanning',
-    example: 'In de buurt komen van iets waar je bang voor bent, geeft veel stress.',
-  },
-  {
     id: 'stressreactie',
     word: 'de stressreactie',
     meaning: 'de reactie van je lichaam als je gestrest bent',
     example: 'Die enge spin wekt een stressreactie bij me op.',
   },
-  {
-    id: 'verlamd-van-angst',
-    word: 'verlamd raken van angst',
-    meaning: 'zich niet kunnen bewegen',
-    example: 'Ik ben verlamd van angst.',
-  },
-  {
-    id: 'waargebeurd-verhaal',
-    word: 'waargebeurd (verhaal)',
-    meaning: 'iets wat echt is gebeurd',
-    example:
-      'De meester vertelde een waargebeurd verhaal over een jongen die van een flat viel en geen schrammetje had.',
-  },
-  {
-    id: 'weerloos',
-    word: 'weerloos',
-    meaning: 'als je niets kunt doen om jezelf te beschermen',
-    example: 'Een kleine jongen is weerloos tegen een enorm monster.',
-  },
-  {
-    id: 'zich-verbeelden',
-    word: 'zich (iets) verbeelden',
-    meaning: 'je iets voorstellen, terwijl het niet waar is',
-    example: 'Er zit echt geen spook onder je bed, dat verbeeld je je maar.',
-  },
-  {
-    id: 'zich-verroeren',
-    word: 'zich verroeren',
-    meaning: 'bewegen',
-    example: 'Blijf zitten waar je zit en verroer je niet.',
-  },
-  {
-    id: 'zombie',
-    word: 'de zombie',
-    meaning: 'een verzonnen figuur die dood is, maar nog rondloopt en er eng uitziet',
-    example: 'In enge films laten zombies mensen schrikken.',
-  },
-  // Uitdrukkingen
   {
     id: 'bang-voor-eigen-schaduw',
     word: 'bang zijn voor je eigen schaduw',
@@ -265,15 +78,16 @@ export const words: WordEntry[] = [
     meaning: 'wel een grote mond hebben, maar niets durven',
   },
   {
-    id: 'hoofd-koel-houden',
-    word: 'het hoofd koel houden',
-    meaning: 'kalm blijven',
+    id: 'stress',
+    word: 'de stress',
+    meaning: 'druk, spanning',
+    example: 'In de buurt komen van iets waar je bang voor bent, geeft veel stress.',
   },
   {
-    id: 'een-adem-uitlezen',
-    word: 'iets in één adem uitlezen',
-    meaning:
-      'een boek of verhaal heel snel uitlezen, omdat je het zo spannend vindt',
+    id: 'controle',
+    word: 'de controle',
+    meaning: 'de beheersing, dat het gaat zoals jij wilt',
+    example: 'Lisa had geen controle meer over zichzelf en begon keihard te gillen.',
   },
 ];
 
