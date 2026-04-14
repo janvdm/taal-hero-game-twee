@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { BookOpen, Shuffle, ArrowRight } from 'lucide-react';
-import { JOKES, pickRandom } from '../data/words';
+import { JOKES, pickRandom, words } from '../data/words';
 import { useState } from 'react';
 import { playClickSound } from '../utils/sounds';
 
@@ -151,7 +151,7 @@ export default function StartScreen({ onStart, highScore }: StartScreenProps) {
         className="text-white/40 text-xs mt-4"
       >
         <Shuffle size={12} className="inline mr-1" />
-        44 woorden &amp; uitdrukkingen
+        {words.length} woorden &amp; uitdrukkingen
       </motion.p>
     </div>
   );
